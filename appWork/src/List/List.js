@@ -80,7 +80,7 @@ export default class List extends Component {
           }}>
           <View style={styles.box}>
             <View>
-              <Image resizeMode="cover" style={{height:220,width:"100%"}} source={require('../assets/list/2.png')}/>
+              <Image resizeMode="cover" style={{height:220,width:"100%"}} source={require('../../assets/list/2.png')}/>
             </View> 
             <View>
               <Text style={styles.txt}>Oishi/上好佳玉米卷20包膨化休闲食品Oishi/上好佳</Text>
@@ -92,7 +92,7 @@ export default class List extends Component {
 
           <View style={styles.box}>
           <View>
-              <Image resizeMode="cover" style={{height:220,width:"100%"}} source={require('../assets/list/3.png')}/>
+              <Image resizeMode="cover" style={{height:220,width:"100%"}} source={require('../../assets/list/3.png')}/>
             </View> 
             <View>
               <Text style={styles.txt}>Oishi/上好佳玉米卷20包膨化休闲食品Oishi/上好佳</Text>
@@ -104,7 +104,7 @@ export default class List extends Component {
 
           <View style={styles.box}>
           <View>
-              <Image resizeMode="cover" style={{height:220,width:"100%"}} source={require('../assets/list/2.png')}/>
+              <Image resizeMode="cover" style={{height:220,width:"100%"}} source={require('../../assets/list/2.png')}/>
             </View> 
             <View>
               <Text style={styles.txt}>Oishi/上好佳玉米卷20包膨化休闲食品Oishi/上好佳</Text>
@@ -115,7 +115,7 @@ export default class List extends Component {
           </View>
           <View style={styles.box}>
           <View>
-              <Image resizeMode="cover" style={{height:220,width:"100%"}} source={require('../assets/list/3.png')}/>
+              <Image resizeMode="cover" style={{height:220,width:"100%"}} source={require('../../assets/list/3.png')}/>
             </View> 
             <View>
               <Text style={styles.txt}>Oishi/上好佳玉米卷20包膨化休闲食品Oishi/上好佳</Text>
@@ -126,7 +126,7 @@ export default class List extends Component {
           </View>
           <View style={styles.box}>
           <View>
-              <Image resizeMode="cover" style={{height:220,width:"100%"}} source={require('../assets/list/2.png')}/>
+              <Image resizeMode="cover" style={{height:220,width:"100%"}} source={require('../../assets/list/2.png')}/>
             </View> 
             <View>
               <Text style={styles.txt}>Oishi/上好佳玉米卷20包膨化休闲食品Oishi/上好佳</Text>
@@ -137,7 +137,7 @@ export default class List extends Component {
           </View>
           <View style={styles.box}>
           <View>
-              <Image resizeMode="cover" style={{height:220,width:"100%"}} source={require('../assets/list/3.png')}/>
+              <Image resizeMode="cover" style={{height:220,width:"100%"}} source={require('../../assets/list/3.png')}/>
             </View> 
             <View>
               <Text style={styles.txt}>Oishi/上好佳玉米卷20包膨化休闲食品Oishi/上好佳</Text>

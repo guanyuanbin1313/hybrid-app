@@ -1,13 +1,14 @@
 import React,{useState,useEffect} from 'react';
 import {StyleSheet,AsyncStorage, View, Text, Dimensions, FlatList, Image, ScrollView, StatusBar} from 'react-native';
-import {Router, Scene, Tabs, Modal} from 'react-native-router-flux';
-import Home from './work1/Home';
-import Login from './work1/Login';
-import List from './work1/List';
-import MyRelease from './work1/MyRelease';
+import {Router, Scene, Tabs, Modal,Actions} from 'react-native-router-flux';
+import Home from './src/Home/Home';
+import Login from './src/login/Login';
+import List from './src/List/List';
+import MyRelease from './src/login/MyRelease';
 import SplashScreen from 'react-native-splash-screen';
-import User from './work1/user';
-import SwiperPage from './work1/SwiperPage';
+import User from './src/common/user';
+import User1 from './src/common/user1';
+import SwiperPage from './src/common/SwiperPage';
 
 // 图标安装完后，要link，link成功后卸载App，再重新 npm run android
 // 重装完以后，App停止运行的，卸载除了 react-native-router-flux之外的没用的包
@@ -171,6 +172,13 @@ const App = () => {
                             hideNavBar
                             key="list"
                             component={MyRelease}
+                            title="列表"
+                            icon={TabIconuser}
+                        />
+                        <Scene
+                            hideNavBar
+                            key="user1"
+                            component={User1}
                             title="列表"
                             icon={TabIconuser}
                         />

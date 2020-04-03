@@ -110,38 +110,38 @@ export default class Home extends Component {
                             />
                         </View>
                         <Image style={styles.searchright}
-                            source={require('../assets/home/gouwuche.png')}                          
+                            source={require('../../assets/home/gouwuche.png')}                         
                         />
                     </View>
                     <Image
-                        source={require('../assets/home/banner.png')}
+                        source={require('../../assets/home/banner.png')}
                         style={styles.banner}
                     />
                     <View >
                         <View style={styles.list}>
                             <Image style={styles.listimg1 }
-                                source={require('../assets/home/list1.png')}                             
+                                source={require('../../assets/home/list1.png')}                             
                             />
                             <Text style={styles.text}>居家维护保养</Text>
                             <Text style={styles.listright}>></Text>
                         </View>
                         <View style={styles.list}>
                         <Image style={styles.listimg2 }
-                                source={require('../assets/home/list2.png')}                                
+                                source={require('../../assets/home/list2.png')}                                
                             />
                             <Text style={styles.text}>住宿优惠</Text>
                             <Text style={styles.listright1}>></Text>
                         </View>
                         <View style={styles.list}>
                         <Image style={styles.listimg3 }
-                               source={require('../assets/home/list3.png')}                              
+                               source={require('../../assets/home/list3.png')}                              
                             />
                             <Text style={styles.text}>出行接送</Text>
                             <Text style={styles.listright1}>></Text>
                         </View>
                         <View style={styles.list}>
                         <Image style={styles.listimg4 }
-                               source={require('../assets/home/list4.png')}
+                               source={require('../../assets/home/list4.png')}
                             />
                             <Text style={styles.text}>E族活动</Text>
                             <Text style={styles.listright1}>></Text>
